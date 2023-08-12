@@ -47,7 +47,7 @@ model = tf.keras.Sequential(
 )
 
 model.compile(optimizer="adam", loss="mean_squared_error")
-model.fit(X_train, y_train, epochs=10, batch_size=32)
+model.fit(X_train, y_train, epochs=50, batch_size=32)
 
 # Prepare test data
 X_test = []
